@@ -1,0 +1,24 @@
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^13.1.5",
+        "electron-builder": "^22.11.7"
+    },
+    "build": {
+        "icon": "static/logo.png",
+        "appId": "cody.custom.calc",
+        "mac": {
+            "category": "tool"
+        }
+    }
+}
